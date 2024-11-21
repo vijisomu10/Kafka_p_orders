@@ -1,7 +1,7 @@
 import sqlite3
 
 # Change here for correct path if you need
-PRODUCTS_DB_PATH = "products.db"
+PRODUCTS_DB_PATH = "C:\\Users\\vijis\\Kafka_proj\\sqlite_connect\\project_kafka.db"
 PRODUCTS_FILE = "products.txt"
 
 def producer_db_setup() -> sqlite3.Cursor:

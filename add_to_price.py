@@ -1,7 +1,8 @@
 import random
 
 """If one would want to change the initial condition of the transformation from produkter.txt to products.txt"""
-
+#- in add_to_price.py you can change the initial products price and stock-level randomization. 
+# You need to run the script to generate a new txt-file
 PRICE_LOWER_LIMIT = 20
 PRICE_UPPER_LIMIT = 2000
 IN_STOCK_LOWER_LIMIT = 5000
